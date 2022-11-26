@@ -45,6 +45,28 @@
     border-radius: 15px;
 }
 
+/* style dla sekcji komentarzy */
+
+.comments {
+    background-image: url('https://cdn.pixabay.com/photo/2016/11/19/11/05/architecture-1838626_1280.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 20px;
+}
+
+.singleComment {
+    background-color: rgba(255, 255, 255, 0.75);
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.singleComment:nth-last-child(1) {
+    margin-bottom: 0;
+}
+
 /* style dla sekcji kontaktu */
 .h2 {
     text-align: center;
