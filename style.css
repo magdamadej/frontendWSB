@@ -96,3 +96,19 @@
     font-size: 50px;
     color: rgb(230, 198, 13);
 }
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.footer_socialMedia {
+    margin-bottom: 20px;
+}
+
+.footer_aboutAuthor {
+    padding-top: 5px;
+    border-top: 1px solid white;
+}
