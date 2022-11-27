@@ -1,5 +1,9 @@
 /* min-width: 768px */
 
+.animation {
+    margin: 40px;
+}
+
 .box {
     display: flex;
     flex-direction: row;

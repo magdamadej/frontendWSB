@@ -36,32 +36,30 @@
 
 .header_readMore {
     margin-bottom: 50px;
-    background-color: darkred;
+    background-color: rgba(139, 0, 0, 0);
     color: white;
     text-decoration: none;
     padding: 20px;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 15px;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.header_readMore:hover {
+    background-color: darkred;
+    color: white;
 }
 
 /* style dla animacji */
 
 .animation {
-    margin: 40px;
-    background-image: url('.././luwr.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 300px;
-    animation: slider 15s infinite;
+    margin: 10px;
 }
 
-@keyframes slider {
-    0% {background-image: url('../img/luwr.jpg');}
-    33% {background-image: url('../img/church.jpg');}
-    66% {background-image: url('../img/chapelle.jpg');}
-    100%{background-image: url('../img/luwr.jpg');}
+div.d-none {
+    display: block !important;
 }
 
 /* style dla sekcji komentarzy */
