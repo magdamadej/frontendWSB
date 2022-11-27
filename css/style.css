@@ -62,6 +62,31 @@ div.d-none {
     display: block !important;
 }
 
+.topPlaces {
+    padding: 10px;
+}
+
+.card {
+    width: 90% !important;
+    margin: 5px;
+}
+
+.topPlaces__readMore {
+    background-color: darkred !important;
+    color: white;
+    border: none !important;
+    border-radius: 15px !important;
+    padding: 10px 20px !important;
+    font-weight: bold !important;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /* style dla sekcji komentarzy */
 
 .comments {
